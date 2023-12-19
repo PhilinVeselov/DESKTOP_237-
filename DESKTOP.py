@@ -6,7 +6,7 @@ from functools import partial
 from tkinter import simpledialog  # Import the simpledialog module
 from tkinter import ttk
 from CTkTable import *
-
+customtkinter.set_appearance_mode("dark")
 roles_window = None
 roles_table = None
 
